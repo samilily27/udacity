@@ -1,0 +1,39 @@
+.main{
+        font-size:60px;
+      }
+   body {
+            background-color: LightBlue;
+        }
+        h1 {
+            color: White;
+            text-align: center;
+            font-size: 60px;
+        }
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+        ul {
+          font-size: 20px;
+          font-family: verdana;
+        }
+ div {
+      background-color: white;
+      width: 300px;
+      border: 25px solid pink;
+      padding: 25px;
+      margin: 25px;
+      align-items: center;
+    }
+.head {
+  width:70%;
+  height:70%;
+  align-items: center;
+  margin: auto;
+}
+.smaller{
+  width:40%;
+  height:40%;
+  align-items: center;
+  margin: auto;
+}
