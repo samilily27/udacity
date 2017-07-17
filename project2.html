@@ -9,15 +9,18 @@
  
 <body>
 
-      <time id="msg"></time>
-      <script>
-        var date = new Date(),
-            options = { weekday: "short", month: "short", day: "numeric", year: "4-digit" };
+  <time id="msg"></time>
+  <script>
+    // Create a JavaScript Date object for the current date and time, and set the desired options.
+    var date = new Date(),
+        options = { weekday: "short", month: "short", day: "numeric", year: "2-digit" };
 
-        date = date.toLocaleString( "en-US", options );
+    // Convert to locale string and add a locale and the options
+    date = date.toLocaleString( "en-US", options );
 
-        document.getElementById("msg").innerHTML = date;
-     </script>
+    // Output the date to the above HTML element
+    document.getElementById("msg").innerHTML = date;
+  </script>
 
   <header>
     <center>
