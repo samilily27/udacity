@@ -7,6 +7,16 @@
   </head>
   
 <body>
+  <div>
+      <script>
+        var date = new Date(),
+            options = { weekday: "short", month: "short", day: "numeric", year: "4-digit" };
+
+        date = date.toLocaleString( "en-US", options );
+
+        document.getElementById("msg").innerHTML = date;
+     </script>
+  </div>
   
   <header>
     <center>
