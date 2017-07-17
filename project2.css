@@ -44,7 +44,7 @@ body {
 }
 .smaller{
   width:35%;
-  height:35%;
+  height:auto;
   border-radius: 50%;
   align-items: center;
   display: block;
