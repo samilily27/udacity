@@ -27,6 +27,14 @@ body {
       margin: 25px;
      text-align: center;
     }
+.thistle {
+         background-color: white;
+         width: 425px;
+         border: 25px solid thistle;
+         padding: 25px;
+         margin: 25px;
+        text-align: center;
+}
 .head {
   width:70%;
   height:70%;
