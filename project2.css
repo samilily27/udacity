@@ -1,6 +1,7 @@
 .main{
         font-size:60px;
       }
+
 body {
             background-color: LightBlue;
             
@@ -73,9 +74,9 @@ body {
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
-          top: 0px;
-          left: 0px;
-          right: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     display: block;
     color: #f2f2f2;
     text-align: center;
