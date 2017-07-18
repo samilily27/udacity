@@ -20,16 +20,18 @@
     <script src="js/bootstrap.min.js"></script>
 
   <time id="msg"></time>
-  <script class="thistle">
-    // Create a JavaScript Date object for the current date and time, and set the desired options.
-    var date = new Date(),
-        options = { weekday: "short", month: "short", day: "numeric", year: "2-digit" };
+  <script>
+    <div class="thistle">
+        // Create a JavaScript Date object for the current date and time, and set the desired options.
+        var date = new Date(),
+            options = { weekday: "short", month: "short", day: "numeric", year: "2-digit" };
 
-    // Convert to locale string and add a locale and the options
-    date = date.toLocaleString( "en-US", options );
+        // Convert to locale string and add a locale and the options
+        date = date.toLocaleString( "en-US", options );
 
-    // Output the date to the above HTML element
-    document.getElementById("msg").innerHTML = date;
+        // Output the date to the above HTML element
+        document.getElementById("msg").innerHTML = date;
+    </div>
   </script>
 
   <header>
@@ -42,13 +44,6 @@
     </center>
   </br>
   
-  <br>
-     <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">Projects</a></li>
-        <li role="presentation"><a href="#">Contact Me</a></li>
-      </ul>
-  </br>
   <center>
     <div class="pink">
       <h2 class="main">About Me </h2>
