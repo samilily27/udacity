@@ -3,7 +3,7 @@
       }
 
 body {
-            background-color: #87CEEB;
+            background-color: LightBlue;
             
         }
 
@@ -25,16 +25,6 @@ body {
             font-size: 20px;
         }
 
-#navBarTop {
-    width: 100%;
-    float: left;
-    margin: 0 0 1em 0;
-    padding: 0;
-    background-color: #B0C4DE;
-    border-bottom: 1px solid #B0C4DE;
-    position:absolute;
-    bottom:0;
-}`
 
  .pink {
       background-color: white;
