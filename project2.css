@@ -68,6 +68,11 @@ body {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    margin: 0; 
+    padding: 5px; 
+    cellspacing: 0;
+    cellpadding: 0;
+    border: 0;
 }
 
 /* Style the links inside the navigation bar */
